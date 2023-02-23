@@ -47,6 +47,22 @@
               </p>
             </a>
           </li>
+          <li class="nav-item">
+            <a href="{{route('dashboard2')}}" class="nav-link {{$current_route=='dashboard2'?'active':''}}">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                Dashboard 2
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="{{route('dashboard3')}}" class="nav-link {{$current_route=='dashboard3'?'active':''}}">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                Dashboard 3
+              </p>
+            </a>
+          </li>
           <li class="nav-item {{$current_route=='users.index'?'menu-open':''}}">
             <a href="#" class="nav-link {{$current_route=='users.index'?'active':''}}">
               <i class="nav-icon fas fa-users"></i>

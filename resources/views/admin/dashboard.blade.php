@@ -24,7 +24,6 @@
     	<div class="container-fluid">
     		Dashboard
     	</div>
-    	
     </div>
     <!-- /.row (main row) -->
 @endsection
